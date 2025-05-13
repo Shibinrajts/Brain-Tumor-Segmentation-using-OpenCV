@@ -52,10 +52,10 @@ Optional morphological post-processing and contour extraction highlight the larg
 
 Overlay of segmentation on the original image, plus download buttons for masks.
 
+Dataset Brain Tumor MRI Dataset (https://drive.google.com/file/d/14bNmRNEldTI8QTJC8njMA2t4hE9DldyS/view)
+
 💻 Installation & Setup
-bash
-Copy
-Edit
+
 # 1. Clone repository
 git clone https://github.com/<your-username>/brain-tumor-segmentation.git
 cd brain-tumor-segmentation
@@ -80,22 +80,10 @@ python train.py
 streamlit run app.py
 ▶️ Typical Usage
 Train:
-
-bash
-Copy
-Edit
 python train.py
 Evaluate (optional):
-
-bash
-Copy
-Edit
 python evaluate.py
 Run Demo:
-
-bash
-Copy
-Edit
 streamlit run app.py
 In Browser
 
@@ -126,13 +114,7 @@ brain-tumor-segmentation/
 🤝 Contributions
 Feel free to open issues or submit pull requests for improvements, new architectures, or additional post-processing steps!
 
-📄 License
-This project is released under the MIT License. See LICENSE for details.
-
-yaml
-Copy
-Edit
-
+🔒 License This project is for educational and research purposes only. Not for clinical use without medical approval.
 ---
 
 ## `requirements.txt`
@@ -146,7 +128,3 @@ scikit-learn
 Pillow
 h5py
 
-# Optional (for extended analysis or visualization):
-matplotlib
-scikit-image
-Save these two files in your repo root. Let me know if you’d like any tweaks!
